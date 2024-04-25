@@ -11,7 +11,7 @@ header {
 header img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-bottom: 10px;
 }
 
@@ -33,13 +33,28 @@ h1, h2 {
     color: #333;
 }
 
-#bio, #work {
+#bio, #image1 {
     background-color: #e9e9e9;
     padding: 15px;
 }
+
+/* #image1 image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px; 
+} */
 
 footer {
     background-color: #f4f4f4;
     text-align: center;
     padding: 10px;
+}
+
+.scrollable-table {
+    overflow-y: auto; /* Enable vertical scrollbar */
+    max-height: 550px; /* Set maximum height */
+}
+
+.download-button{
+    cursor: pointer; 
 }
